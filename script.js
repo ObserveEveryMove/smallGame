@@ -12,6 +12,12 @@ let loss = 0
 
 const getRandomRange = (max,min) => Math.floor(Math.random() * (max - min + 1) + min)
 
+let someObj = {
+    push: 1,
+    trys: 3,
+    working: "HopeSo"
+}
+
 const handleClick = (e) =>  {
     let target = parseInt(targetNum.innerText.match(/\d+/)[0])
     let num = parseInt(e.target.innerText)
