@@ -18,6 +18,7 @@ let someObj = {
     trys: 3,
     working: "HopeSo"
 }
+let changes = ["What", "is" , "going", "on"]
 
 const handleClick = (e) =>  {
     let target = parseInt(targetNum.innerText.match(/\d+/)[0])
