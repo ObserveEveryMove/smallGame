@@ -3,8 +3,6 @@ let playerNum = document.getElementById("playerNum")
 let wins = document.getElementById("wins")
 let losses = document.getElementById("losses")
 
-// This is a comment to see if I am properly pushing to GitHub
-
 const btns = Array.from(document.getElementsByClassName("btn"))
 
 const colors = "red blue green gold yellow seagreen teal pink tomato lightgray gray lightBlue".split(" ")
@@ -13,6 +11,12 @@ let winner = 0
 let loss = 0
 
 const getRandomRange = (max,min) => Math.floor(Math.random() * (max - min + 1) + min)
+
+let someObj = {
+    push: 1,
+    trys: 3,
+    working: "HopeSo"
+}
 
 const handleClick = (e) =>  {
     let target = parseInt(targetNum.innerText.match(/\d+/)[0])
